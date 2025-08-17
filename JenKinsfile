@@ -86,6 +86,10 @@ pipeline {
                     reuseNode true
                 }
             }
+
+            environment {
+                CI_ENVIRONMENT_URL = 'Undefine'
+            }
         
 
             steps {
